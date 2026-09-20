@@ -1,4 +1,4 @@
-# CSPC Lab A
+
 # CSPC - Computer Science for Physics and Chemistry
 
 My coursework repository. Each practical is under `PW<n>/Lab <X>/`.
@@ -36,7 +36,7 @@ conda activate cspc
 
 
 
-PW1 - Lab B
+##PW1 - Lab B
 
 What the data showed:
 
