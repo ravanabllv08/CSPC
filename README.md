@@ -36,7 +36,7 @@ conda activate cspc
 
 
 
-##PW1 - Lab B
+## PW1 - Lab B
 
 What the data showed:
 
