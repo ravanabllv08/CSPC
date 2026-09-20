@@ -33,3 +33,20 @@ conda activate cspc
 
 - All three tests passed. I also learned how to test for errors and check the simulation result.
 - The NumPy version was much faster than the Python loop. I also got more familiar with Conda, pytest and working with Git.
+
+
+
+PW1 - Lab B
+
+What the data showed:
+
+The observed count decreased over time, from 5000 at time 0 to 17 at time 19.5.
+The decrease was rapid at the beginning and became slower as the count approached zero.
+
+Comparison with the analytical law:
+
+The observed data followed the expected exponential decay trend. There were some small fluctuations in the observed values, but overall the data matched the analytical law reasonably well.
+
+Snakemake pipeline:
+
+The Snakemake pipeline automatically runs plot.py using decay_observed.csv as input and produces figure.png as the output.
