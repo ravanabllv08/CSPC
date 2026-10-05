@@ -50,3 +50,15 @@ The observed data followed the expected exponential decay trend. There were some
 Snakemake pipeline:
 
 The Snakemake pipeline automatically runs plot.py using decay_observed.csv as input and produces figure.png as the output.
+
+
+
+
+
+
+
+## PW2 - Lab A
+
+*The mean acceleration was -8.58 m/s².
+*The acceleration was noisier because taking derivatives makes the noise bigger.
+*Integrating the acceleration back to velocity and then position showed that the recovered position was close to the original position. The largest difference was 0.78 m, which is within about 1 metre.
