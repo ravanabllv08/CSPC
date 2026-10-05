@@ -59,6 +59,40 @@ The Snakemake pipeline automatically runs plot.py using decay_observed.csv as in
 
 ## PW2 - Lab A
 
-*The mean acceleration was -8.58 m/s².
-*The acceleration was noisier because taking derivatives makes the noise bigger.
-*Integrating the acceleration back to velocity and then position showed that the recovered position was close to the original position. The largest difference was 0.78 m, which is within about 1 metre.
+-The mean acceleration was -8.58 m/s**2
+-The acceleration was noisier because taking derivatives makes the noise bigger
+-Integrating the acceleration back to velocity and then position showed that the recovered position was close to the original position. The largest difference was 0.78 m, which is within about 1 metre
+
+## PW2 -Lab B 
+
+### PART 2
+Starting from x0 = 0, gradient descent and SLSQP gave almost the same result, around x = -1.30. Newton gave x = 0.17. Since the second derivative is negative there (g''(x) = -5.65), this point is a maximum, not a minimum
+When I started from x0 = 2 the gradient descent and Newton both converged to x = 1.13. For Newton, g''(x) = 9.35, so this time it found a minimum. SLSQP still found the minimum around x = -1.30
+So the three methods do not always give the same result. The starting point can affect where the method ends up. Newton can even find a maximum instead of a minimun, depending on the starting point
+
+### Part 3 — Reaction rate
+
+The fitted first order reaction rate constant was:
+k = 0.2618
+
+The fitted curve closely matched the measured concentration data
+
+### Part 4 — Chemical equilibrium
+
+For the reaction H2 + I2 -> 2HI, the equilibrium extent was approximately:
+x = 0.6638
+
+The equilibrium amounts were
+
+- H2 = 0.3362 mol
+- I2 = 0.3362 mol
+- HI = 1.3277 mol
+
+Newton's method and SLSQP gave almost the same equilibrium extent
+
+### Part 5 — Titration equivalence point
+
+The equivalence point was found using the maximum slope of the pH curve
+Equivalence point = 50.0 ml
+
+
